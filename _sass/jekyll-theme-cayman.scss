@@ -42,6 +42,11 @@ a {
   }
 }
 
+.circleimage {
+  border-radius: 47%;
+  max-height: 300px;
+}
+
 .linkj {
     color: $header-heading-color;
 }
@@ -99,9 +104,9 @@ a {
 }
 
 .image {
-    height: 400px;
-    width: auto;
-    margin-left: 50px;
+    max-height: 400px;
+    max-width: 50%;
+    margin-left: 20px;
 }
 
 .page-headerj {
@@ -109,6 +114,7 @@ a {
   text-align: center;
   background-color: $header-bg-color;
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
+  min-height: 100vh;
 
   @include large {
     padding: 5rem 6rem;
@@ -337,6 +343,10 @@ a {
     background-color: $hr-border-color;
     border: 0;
   }
+}
+
+.resume {
+  max-height: 100%;
 }
 
 .site-footerj {

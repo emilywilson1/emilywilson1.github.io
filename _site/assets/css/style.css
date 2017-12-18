@@ -583,6 +583,10 @@ a {
   a:hover {
     text-decoration: underline; }
 
+.circleimage {
+  border-radius: 47%;
+  max-height: 300px; }
+
 .linkj {
   color: #fff; }
 
@@ -627,15 +631,16 @@ a {
         margin-left: 0; } }
 
 .image {
-  height: 400px;
-  width: auto;
-  margin-left: 50px; }
+  max-height: 400px;
+  max-width: 50%;
+  margin-left: 20px; }
 
 .page-headerj {
   color: #fff;
   text-align: center;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-image: linear-gradient(120deg, #155799, #159957);
+  min-height: 100vh; }
   @media screen and (min-width: 64em) {
     .page-headerj {
       padding: 5rem 6rem; } }
@@ -802,6 +807,9 @@ a {
     margin: 1rem 0;
     background-color: #eff0f1;
     border: 0; }
+
+.resume {
+  max-height: 100%; }
 
 .site-footerj {
   padding-top: 2rem;
